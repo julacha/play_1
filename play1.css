@@ -1,0 +1,49 @@
+#container{
+    display:grid;
+    grid-template-areas:
+    "numbers"
+    "gallery"
+
+}
+
+.numbers{
+    grid-area:numbers;
+   display: flex;
+   flex-direction: row;
+    background-color: mediumaquamarine;
+    justify-content: center;
+    align-items: center; 
+    flex-wrap: wrap;
+}
+
+.cell{
+    /* width: 20px;
+    height: 15px; */
+    padding: 20px;
+    background-color: lightcoral;
+    margin: 10px;
+    border-radius: 5px;
+    border: 3px solid maroon;
+    justify-content: center;
+    align-items: center; 
+}
+
+.gallery{
+    grid-area:gallery;
+ 
+}
+.slider{
+    width:350px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto; 
+}
+
+.count{
+width:350px;
+height: auto;
+display:none;
+}
+.count:first-child{
+    display:block;
+}
