@@ -18,10 +18,10 @@ let i=0;
 
 oneBtn.onclick = function(){
    images[i].style.display = "none";
-   if(i === 0){
+   if(i == 0){
       well.style.display = "block";
       }
-   else (i !== 0)
+   else if (i !== 0)
    {
       wrong.style.display = "block";
    }
@@ -32,9 +32,9 @@ twoBtn.onclick = function(){
       if(i === 1){
          well.style.display = "block";
          }
-    else (i !== 1)
+    else if (i !== 1)
       {
-         wrong.style.display = "block";
+         wrong.style.display = " block";
       }
    }
    
@@ -44,9 +44,9 @@ threeBtn.onclick = function(){
       if(i === 2){
          well.style.display = "block";
          }
-      else (i !== 2)
+      else if (i !== 2)
       {
-         return;
+         wrong.style.display = " block";
       }
    }
    
@@ -55,9 +55,9 @@ threeBtn.onclick = function(){
    if(i === 3){
       well.style.display = "block";
    }
-   else (i !== 3)
+   else if (i !== 3)
       {
-      return;
+      wrong.style.display = " block";
       }
 }     
  fourBtn.onclick = function(){
@@ -65,9 +65,9 @@ threeBtn.onclick = function(){
    if(i === 3){
       well.style.display = "block";
       }
-   else (i !== 3)
+   else if (i !== 3)
       {
-         return;
+         wrong.style.display = " block";
       }
 }     
 fiveBtn.onclick = function(){
@@ -75,9 +75,9 @@ fiveBtn.onclick = function(){
    if(i === 4){
       well.style.display = "block";
       }
-   else (i !== 4)
+   else if (i !== 4)
       {
-         return;
+      wrong.style.display = " block";
       }
 }        
 sixBtn.onclick = function(){
@@ -85,9 +85,49 @@ sixBtn.onclick = function(){
    if(i === 5){
       well.style.display = "block";
       }
-   else (i !== 5)
+   else if(i !== 5)
       {
-         return;
+         wrong.style.display = " block";
+      }
+}
+sevenBtn.onclick = function(){
+   images[i].style.display = "none";
+   if(i === 6){
+      well.style.display = "block";
+      }
+   else if(i !== 6)
+      {
+         wrong.style.display = " block";
+      }
+}
+eightBtn.onclick = function(){
+   images[i].style.display = "none";
+   if(i === 7){
+      well.style.display = "block";
+      }
+   else if(i !== 7)
+      {
+         wrong.style.display = " block";
+      }
+}
+nineBtn.onclick = function(){
+   images[i].style.display = "none";
+   if(i === 8){
+      well.style.display = "block";
+      }
+   else if(i !== 8)
+      {
+         wrong.style.display = " block";
+      }
+}
+tenBtn.onclick = function(){
+   images[i].style.display = "none";
+   if(i === 9){
+      well.style.display = "block";
+      }
+   else if(i !== 9)
+      {
+         wrong.style.display = " block";
       }
 }
 rightBtn.onclick = function(){
