@@ -10,80 +10,20 @@ let sevenBtn = document.getElementById('num-7');
 let eightBtn = document.getElementById('num-8');
 let nineBtn = document.getElementById('num-9');
 let tenBtn = document.getElementById('num-10');
+var images = document.querySelectorAll('#gallery .slider .count');
+
 
 oneBtn.onclick = function(){
-   images[i].style.display = "none";
-   //i++;
-  for (let i=0; i < images.length; i++){
-   if(i = 0){
-      document.write("super");
-      }
-   else (i != 0)
-   {
-      document.write("try one more");
-   }
-}
-   images[i].style.display = "block";
-}
-/* twoBtn.onclick = function(){
-   images[i].style.display = "none";
-   i++;
-   i=1;
-   images[i].style.display = "block";
-}
-threeBtn.onclick = function(){
-   images[i].style.display = "none";
-   i++;
-   i=2;
-   images[i].style.display = "block";
-}
-fourBtn.onclick = function(){
-   images[i].style.display = "none";
-   i++;
-   i=3;
-   images[i].style.display = "block";
-}
-fiveBtn.onclick = function(){
-   images[i].style.display = "none";
-   i++;
-   images[i].style.display = "block";
-}
-sixBtn.onclick = function(){
-   images[i].style.display = "none";
-   i++;
-   images[i].style.display = "block";
-}
-sevenBtn.onclick = function(){
-   images[i].style.display = "none";
-   i++;
-   images[i].style.display = "block";
-}
-eightBtn.onclick = function(){
-   images[i].style.display = "none";
-   i++;
-   images[i].style.display = "block";
-}
-nineBtn.onclick = function(){
-   images[i].style.display = "none";
-   i++;
-   images[i].style.display = "block";
-}
-tenBtn.onclick = function(){
-   images[i].style.display = "none";
-   i++;
-   images[i].style.display = "block";
+alert(1);
 }
 
-var images = document.querySelectorAll('#gallery .slider .count');
-//console.log(images);
-var i = 0;
 
-leftBtn.onclick = function(){
+/* leftBtn.onclick = function(){
    images[i].style.display = "none";
    i++;
    images[i].style.display = "block";
-} 
- */
+}  */
+
 /* function onClick(event){
 console.log("Clicked Numbers");
 console.log ("My id is", event.currentTarget.id);
@@ -105,4 +45,13 @@ function main(){
    addListeners();
 }
 
-main(); */
+main(); */ 
+/*  for (let i=0; i < images.length; i++){
+   if(i == 0){
+      document.write("super");
+      }
+   else (i !== 0)
+   {
+      document.write("try one more");
+   }
+} */

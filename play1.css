@@ -28,7 +28,7 @@
     align-items: center; 
 }
 
-.gallery{
+#gallery{
     grid-area:gallery;
  
 }
