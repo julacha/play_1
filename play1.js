@@ -11,50 +11,96 @@ let eightBtn = document.getElementById('num-8');
 let nineBtn = document.getElementById('num-9');
 let tenBtn = document.getElementById('num-10');
 let images = document.querySelectorAll('#gallery .slider .count');
+let well = document.getElementById('done');
 let i=0;
 
 oneBtn.onclick = function(){
    images[i].style.display = "none";
-for (let i=0; i <= images.length; i++){
+//for (let i=0; i <= images.length; i++){
    if(i === 0){
-      images[i].style.display = "block";
+      well.style.display = "block";
       }
    else (i !== 0)
    {
       return;
    }
 }
-}
+
 
 twoBtn.onclick = function(){
-   for (let i=0; i <= images.length; i++){
+   images[i].style.display = "none";
+   //for (let i=0; i <= images.length; i++){
       if(i === 1){
-         document.write("super");
+         well.style.display = "block";
          }
-    /*   else (i != 1)
+    else (i !== 1)
       {
-         document.write("try one more");
-      } */
-   }
+         return;
+      }
    }
    
+   
 threeBtn.onclick = function(){
-   for (let i=0; i <= images.length; i++){
+   images[i].style.display = "none";
+   //for (let i=0; i <= images.length; i++){
       if(i === 2){
-         document.write("super");
+         well.style.display = "block";
          }
       else (i !== 2)
       {
-         document.write("try one more");
+         return;
       }
    }
+   
+ fourBtn.onclick = function(){
+   images[i].style.display = "none";
+   //for (let i=0; i <= images.length; i++){
+   if(i === 3){
+      well.style.display = "block";
    }
-
-/* leftBtn.onclick = function(){
+   else (i !== 3)
+      {
+      return;
+      }
+}     
+ fourBtn.onclick = function(){
+   images[i].style.display = "none";
+   //for (let i=0; i <= images.length; i++){
+   if(i === 3){
+      well.style.display = "block";
+      }
+   else (i !== 3)
+      {
+         return;
+      }
+}     
+fiveBtn.onclick = function(){
+   images[i].style.display = "none";
+   //for (let i=0; i <= images.length; i++){
+   if(i === 4){
+      well.style.display = "block";
+      }
+   else (i !== 4)
+      {
+         return;
+      }
+}        
+sixBtn.onclick = function(){
+   images[i].style.display = "none";
+   //for (let i=0; i <= images.length; i++){
+   if(i === 5){
+      well.style.display = "block";
+      }
+   else (i !== 5)
+      {
+         return;
+      }
+}
+rightBtn.onclick = function(){
    images[i].style.display = "none";
    i++;
    images[i].style.display = "block";
-}  */
+} 
 
 /* function onClick(event){
 console.log("Clicked Numbers");

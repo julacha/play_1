@@ -17,12 +17,12 @@
 }
 
 .cell{
-    /* width: 20px;
-    height: 15px; */
-    padding: 20px;
+    width: 40px;
+    height: 40px;
+    padding: 30px;
     background-color: lightcoral;
     margin: 10px;
-    border-radius: 5px;
+    border-radius: 50px;
     border: 3px solid maroon;
     justify-content: center;
     align-items: center; 
@@ -46,4 +46,7 @@ display: none;
 }
 .count:first-child{
     display:block;
+}
+.well{
+    display:none;
 }
