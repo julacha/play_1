@@ -13,10 +13,10 @@ let tenBtn = document.getElementById('num-10');
 let images = document.querySelectorAll('#gallery .slider .count');
 let well = document.getElementById('done');
 let i=0;
+well.style.display = "none";
 
 oneBtn.onclick = function(){
    images[i].style.display = "none";
-//for (let i=0; i <= images.length; i++){
    if(i === 0){
       well.style.display = "block";
       }
@@ -26,10 +26,8 @@ oneBtn.onclick = function(){
    }
 }
 
-
 twoBtn.onclick = function(){
    images[i].style.display = "none";
-   //for (let i=0; i <= images.length; i++){
       if(i === 1){
          well.style.display = "block";
          }
@@ -42,7 +40,6 @@ twoBtn.onclick = function(){
    
 threeBtn.onclick = function(){
    images[i].style.display = "none";
-   //for (let i=0; i <= images.length; i++){
       if(i === 2){
          well.style.display = "block";
          }
@@ -54,7 +51,6 @@ threeBtn.onclick = function(){
    
  fourBtn.onclick = function(){
    images[i].style.display = "none";
-   //for (let i=0; i <= images.length; i++){
    if(i === 3){
       well.style.display = "block";
    }
@@ -65,7 +61,6 @@ threeBtn.onclick = function(){
 }     
  fourBtn.onclick = function(){
    images[i].style.display = "none";
-   //for (let i=0; i <= images.length; i++){
    if(i === 3){
       well.style.display = "block";
       }
@@ -76,7 +71,6 @@ threeBtn.onclick = function(){
 }     
 fiveBtn.onclick = function(){
    images[i].style.display = "none";
-   //for (let i=0; i <= images.length; i++){
    if(i === 4){
       well.style.display = "block";
       }
@@ -87,7 +81,6 @@ fiveBtn.onclick = function(){
 }        
 sixBtn.onclick = function(){
    images[i].style.display = "none";
-   //for (let i=0; i <= images.length; i++){
    if(i === 5){
       well.style.display = "block";
       }
@@ -98,6 +91,7 @@ sixBtn.onclick = function(){
 }
 rightBtn.onclick = function(){
    images[i].style.display = "none";
+   well.style.display = "none";
    i++;
    images[i].style.display = "block";
 } 

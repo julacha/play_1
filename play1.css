@@ -47,6 +47,9 @@ display: none;
 .count:first-child{
     display:block;
 }
-.well{
+#done{
+    display:none;
+}
+#done::after{
     display:none;
 }
