@@ -15,10 +15,40 @@ let i=0;
 
 oneBtn.onclick = function(){
    images[i].style.display = "none";
-   i++;
-   images[i].style.display = "block";
+for (let i=0; i <= images.length; i++){
+   if(i === 0){
+      images[i].style.display = "block";
+      }
+   else (i !== 0)
+   {
+      return;
+   }
+}
 }
 
+twoBtn.onclick = function(){
+   for (let i=0; i <= images.length; i++){
+      if(i === 1){
+         document.write("super");
+         }
+    /*   else (i != 1)
+      {
+         document.write("try one more");
+      } */
+   }
+   }
+   
+threeBtn.onclick = function(){
+   for (let i=0; i <= images.length; i++){
+      if(i === 2){
+         document.write("super");
+         }
+      else (i !== 2)
+      {
+         document.write("try one more");
+      }
+   }
+   }
 
 /* leftBtn.onclick = function(){
    images[i].style.display = "none";
