@@ -10,11 +10,13 @@ let sevenBtn = document.getElementById('num-7');
 let eightBtn = document.getElementById('num-8');
 let nineBtn = document.getElementById('num-9');
 let tenBtn = document.getElementById('num-10');
-var images = document.querySelectorAll('#gallery .slider .count');
-
+let images = document.querySelectorAll('#gallery .slider .count');
+let i=0;
 
 oneBtn.onclick = function(){
-alert(1);
+   images[i].style.display = "none";
+   i++;
+   images[i].style.display = "block";
 }
 
 

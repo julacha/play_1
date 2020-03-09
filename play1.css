@@ -42,7 +42,7 @@
 .count{
 width:350px;
 height: auto;
-display:none;
+display: none;
 }
 .count:first-child{
     display:block;
