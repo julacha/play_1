@@ -50,6 +50,6 @@ display: none;
 #done{
     display:none;
 }
-#done::after{
+#error{
     display:none;
 }

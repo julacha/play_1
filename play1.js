@@ -12,8 +12,9 @@ let nineBtn = document.getElementById('num-9');
 let tenBtn = document.getElementById('num-10');
 let images = document.querySelectorAll('#gallery .slider .count');
 let well = document.getElementById('done');
+let wrong = document.getElementById('error');
 let i=0;
-well.style.display = "none";
+
 
 oneBtn.onclick = function(){
    images[i].style.display = "none";
@@ -22,7 +23,7 @@ oneBtn.onclick = function(){
       }
    else (i !== 0)
    {
-      return;
+      wrong.style.display = "block";
    }
 }
 
@@ -33,7 +34,7 @@ twoBtn.onclick = function(){
          }
     else (i !== 1)
       {
-         return;
+         wrong.style.display = "block";
       }
    }
    
@@ -92,6 +93,7 @@ sixBtn.onclick = function(){
 rightBtn.onclick = function(){
    images[i].style.display = "none";
    well.style.display = "none";
+   wrong.style.display = "none";
    i++;
    images[i].style.display = "block";
 } 
