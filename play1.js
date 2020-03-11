@@ -132,7 +132,7 @@ tenBtn.onclick = function(){
 }
 rightBtn.onclick = function(){
    images[i].style.display = "none";
-   well.style.display = "none";
+   well.style.display = "none"; 
    wrong.style.display = "none";
    i++;
    images[i].style.display = "block";
@@ -160,6 +160,7 @@ function main(){
 }
 
 main(); */ 
+
 /*  for (let i=0; i < images.length; i++){
    if(i == 0){
       document.write("super");
